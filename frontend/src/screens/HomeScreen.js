@@ -21,7 +21,7 @@ function HomeScreen({ history }) {
 
   return (
     <div>
-      <h1>Latest Products</h1>
+      <h1>New Items</h1>
       {loading ? (
         <Loader />
       ) : error ? (
@@ -30,7 +30,7 @@ function HomeScreen({ history }) {
         <div>
           <Row>
             {products.map((product) => (
-              <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
+              <Col key={product._id} sm={6} md={6} lg={4} xl={3}>
                 <Product product={product} />
               </Col>
             ))}

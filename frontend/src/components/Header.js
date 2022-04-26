@@ -1,7 +1,8 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import Logo from "../../src/logo.jpg";
 import { Navbar, Nav, Container, Row, NavDropdown } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
+import { LinkContainer, Link } from "react-router-bootstrap";
 import SearchBox from "./SearchBox";
 import { logout } from "../actions/userActions";
 
@@ -20,7 +21,15 @@ function Header() {
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to="/">
-            <Navbar.Brand>As.com</Navbar.Brand>
+            <Navbar.Brand>
+              <img
+                width="80%"
+                height="auto"
+                className="img-responsive"
+                src={Logo}
+                alt="logo"
+              />
+            </Navbar.Brand>
           </LinkContainer>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
