@@ -119,8 +119,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'andyshop',
         'USER': 'postgres',
-        'PASSWORD': os.environ.get('DB_PASS'),
-        'HOST': os.environ.get('HOST'),
+        'PASSWORD': 'lalacorp',
+        'HOST': 'localhost',
         'PORT': '5432'
     }
 }
