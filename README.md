@@ -3,4 +3,4 @@ Ecommerce crud app that utilizes React and Redux (for state management) for its 
 
 This website utilizes Django, React, Redux, Postgres and AWS
 
-![image](https://i.ibb.co/Qb7b5WZ/andyshop.jpg)
+![image](https://i.ibb.co/9THhLcw/Screenshot-2022-04-28-151230.jpg)
