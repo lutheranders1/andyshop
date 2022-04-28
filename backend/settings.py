@@ -174,13 +174,13 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Dont forget to reset database connection and hide password
-#AWS_QUERYSTRING_AUTH = False
-#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_QUERYSTRING_AUTH = False
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-#AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-#AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_ACCESS_KEY_ID = "AKIAXUEEPCMQNCEW5ZEQ"
+AWS_SECRET_ACCESS_KEY = '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'
 
-#AWS_STORAGE_BUCKET_NAME = 'proshop-bucket-demo'
+AWS_STORAGE_BUCKET_NAME = 'andyshop-images'
 
 if os.getcwd() == '/app':
     DEBUG = False
