@@ -47,6 +47,15 @@ h3{
 .carousel a {
   margin: 0 auto;
 }
+
+.jumbotron{
+
+  background: url(https://www.itl.cat/pngfile/big/205-2054467_new-york-city-street-wallpaper-hd-images-42nd.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+}
 @media (max-width: 900px) {
   .carousel-caption h2 {
     font-size: 2.5vw;

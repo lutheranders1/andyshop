@@ -21,6 +21,13 @@ function HomeScreen({ history }) {
 
   return (
     <div>
+      <div className="jumbotron">
+        <h1 className="display-4">Welcome!</h1>
+        <p className="lead text-white">AS.com, Shop your way.</p>
+        <hr className="my-4" />
+        <p className="text-white">Jump into retail therapy today.</p>
+        <p className="lead"></p>
+      </div>
       <h1>New Items</h1>
       {loading ? (
         <Loader />
